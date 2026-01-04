@@ -35,11 +35,9 @@ function AddtoCart() {
     let existingItem = productsAddedToCart.find(item => item.id == product.id);
 
     if (existingItem) {
-        alert("existed")
             existingItem.quantity++;
         }
         else {
-            alert("first")
             product.quantity = 1;
             product.finalPrice=finalPrice
             productsAddedToCart.push(product)
