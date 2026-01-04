@@ -1,0 +1,44 @@
+:root{
+    --wp--preset--color--vivid-purple: #9b51e0;
+    --wp--preset--color--woo-purple-100: #1f0342;
+    --wp--preset--color--woo-purple-90: #2c045d;
+    --wp--preset--color--woo-purple-80: #3c087e;
+    --wp--preset--color--woo-purple-70: #5007aa;
+    --wp--preset--color--woo-purple-60: #6108ce;
+    --wp--preset--color--woo-purple-50: #720eec;
+    --wp--preset--color--woo-purple-40: #873eff;
+    --wp--preset--color--woo-purple-30: #a77eff;
+    --wp--preset--color--woo-purple-20: #b999ff;
+    --wp--preset--color--woo-purple-10: #d1c1ff;
+    --wp--preset--color--woo-purple-5: #e1d7ff;
+    --wp--preset--color--woo-purple-0: #f2edff;
+}
+footer p{
+    color: #50575E;
+
+}
+footer p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+.footer-links svg{
+    fill: #50575E;
+   
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}

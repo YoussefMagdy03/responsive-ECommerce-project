@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="mx-auto w-[90%]">
+    <header>
+      <nav class="flex justify-between p-[28px] bg-white-500 items-center ">
+        <div class="lg:flex lg:justify-between">
+
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="wccom-icon wccom-icon__woo-logo me-5" role="img"
+            aria-labelledby="logoTitle" viewBox="0 0 95 26" width="95" height="26" preserveAspectRatio="xMidYMid"
+            style="max-width: 100%; height: auto;">
+            <title id="logoTitle">WooCommerce</title>
+            <path
+              d="M12.0825 25.2704C14.8471 25.2704 17.0657 23.9052 18.7381 20.7651L22.4584 13.8023V19.707C22.4584 23.1884 24.7111 25.2704 28.1925 25.2704C30.923 25.2704 32.9368 24.0758 34.8822 20.7651L43.4492 6.29339C45.3264 3.11918 43.9953 0.72998 39.8654 0.72998C37.6469 0.72998 36.2134 1.44674 34.9164 3.87006L29.0117 14.9628V5.09879C29.0117 2.1635 27.6123 0.72998 25.0183 0.72998C22.9704 0.72998 21.3321 1.6174 20.0692 4.07485L14.5058 14.9628V5.20119C14.5058 2.0611 13.2088 0.72998 10.0687 0.72998H3.65206C1.22873 0.72998 0 1.85632 0 3.93833C0 6.02034 1.29699 7.21494 3.65206 7.21494H6.28017V19.6729C6.28017 23.1884 8.63523 25.2704 12.0825 25.2704Z"
+              fill="#873EFF"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M55.9772 0.72998C48.9803 0.72998 43.6217 5.95208 43.6217 13.0173C43.6217 20.0825 49.0144 25.2704 55.9772 25.2704C62.94 25.2704 68.2645 20.0483 68.2986 13.0173C68.2986 5.95208 62.94 0.72998 55.9772 0.72998ZM55.9772 17.7274C53.3491 17.7274 51.5401 15.7478 51.5401 13.0173C51.5401 10.2868 53.3491 8.27301 55.9772 8.27301C58.6053 8.27301 60.4143 10.2868 60.4143 13.0173C60.4143 15.7478 58.6395 17.7274 55.9772 17.7274Z"
+              fill="#873EFF"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M70.0369 13.0173C70.0369 5.95208 75.3955 0.72998 82.3583 0.72998C89.3211 0.72998 94.6797 5.98621 94.6797 13.0173C94.6797 20.0483 89.3211 25.2704 82.3583 25.2704C75.3955 25.2704 70.0369 20.0825 70.0369 13.0173ZM77.9554 13.0173C77.9554 15.7478 79.6961 17.7274 82.3583 17.7274C84.9864 17.7274 86.7954 15.7478 86.7954 13.0173C86.7954 10.2868 84.9864 8.27301 82.3583 8.27301C79.7302 8.27301 77.9554 10.2868 77.9554 13.0173Z"
+              fill="#873EFF"></path>
+          </svg>
+          <div class=" lg:flex lg:gap-x-[30px] lg:items-center hidden">
+            <h3 class="text-l text-[#101517]  ">
+              Sell
+              <i class="fa-solid fa-angle-down "></i>
+            </h3>
+            <h3 class="text-l text-[#101517]  ">
+              Extenisons
+              <i class="fa-solid fa-angle-down"></i>
+            </h3>
+            <h3 class="text-l text-[#101517] ">Ecommerce
+              <i class="fa-solid fa-angle-down"></i>
+            </h3>
+            <h3 class="text-l text-[#101517]     ">
+              Enterprise ecommerce
+              <i class="fa-solid fa-angle-down"></i>
+            </h3>
+          </div>
+        </div>
+        <button class="flex flex-col justify-center items-center lg:hidden">
+          <span class="bg-gray-800 block h-0.5 w-8 mb-1 rounded-full"></span>
+          <span class="bg-gray-800 block h-0.5 w-8 mb-1 rounded-full"></span>
+          <span class="bg-gray-800 block h-0.5 w-8 rounded-full"></span>
+        </button>
+
+        <div class="lg:flex lg:justify-between lg:gap-x-[30px] lg:items-baseline hidden">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <h3 class="text-purple-700 ">Login</h3>
+          <h3
+            class="text-purple-700 border-solid rounded border-2 lg:px-2 lg:py-2  hover:bg-violet-600 hover:text-white ">
+            Get Started</h3>
+
+        </div>
+      </nav>
+    </header>
+    <main class=" grid grid-cols-4 gap-10">
+      <section class="col-span-4 lg:col-span-3 p-10 bg-white rounded-3xl border border-gray-100 animate-fade-in shadow-sm self-start">
+        <div class="flex items-start gap-8 mb-8 animate-fade-in-up">
+          <div class="w-full h-full lg:w-96 lg:h-96 hover:-rotate-2 hover:scale-[1.05] transition duration-500 
+          delay-100 ease-in-out rounded-3xl justify-center shadow-lg">
+            <img id="product-img" class="w-full" alt="Product Icon" />
+          </div>
+          <div class="flex flex-col ">
+            <h1 id="product-title" class="text-4xl font-extrabold text-gray-900 tracking-tight leading-tight mb-2"></h1>
+            <div class="flex items-center gap-2 text-lg">
+              <span class="text-gray-500">by</span>
+              <span id="product-brand"
+                class="text-purple-600 font-semibold hover:underline cursor-pointer underline"></span>
+            </div>
+            <div class="text-left animate-fade-in-up [animation-delay:100ms] opacity-0 [animation-fill-mode:forwards]">
+              <div class="text-3xl font-bold text-gray-900 product-price"></div>
+              <span class="text-sm text-green-600 font-bold uppercase tracking-wider">Available Now</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="animate-fade-in-up opacity-20">
+
+          <p id="product-description" class="text-gray-600 text-xl leading-relaxed mb-10"></p>
+
+        </div>
+
+        <hr class="border-gray-100 mb-12" />
+        <div class="animate-fade-in-up [animation-delay:300ms] opacity-0 [animation-fill-mode:forwards]">
+          <h2 class="text-3xl font-bold text-gray-900 mb-6 tracking-tight">Add subscription plans to existing products
+          </h2>
+          <p class="text-2xl text-gray-600 leading-relaxed mb-10 max-w-4xl">
+            Streamline your workflow and offer existing products on recurring plans with this powerful, integrated
+            add-on.
+          </p>
+
+          <div class="grid grid-cols-1 gap-5">
+            <div class="flex items-start gap-4 group">
+              <div
+                class="mt-1 flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center group-hover:bg-green-500 transition-colors duration-300">
+                <svg class="w-4 h-4 text-green-600 group-hover:text-white" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <p class="text-gray-700 text-lg">
+                Add <strong class="text-gray-900 font-bold">optional subscription plans</strong> to any Simple or
+                Variable product.
+              </p>
+            </div>
+
+            <div class="flex items-start gap-4 group">
+              <div
+                class="mt-1 flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center group-hover:bg-green-500 transition-colors duration-300">
+                <svg class="w-4 h-4 text-green-600 group-hover:text-white" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <p class="text-gray-700 text-lg">
+                Offer <strong class="text-gray-900 font-bold">discounts</strong> as an extra incentive for your
+                customers to subscribe.
+              </p>
+            </div>
+
+            <div class="flex items-start gap-4 group">
+              <div
+                class="mt-1 flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center group-hover:bg-green-500 transition-colors duration-300">
+                <svg class="w-4 h-4 text-green-600 group-hover:text-white" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <p class="text-gray-700 text-lg">
+                Enable <strong class="text-gray-900 font-bold">frictionless checkout</strong> experiences for recurring
+                services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside class="max-w col-span-4  lg:col-span-1 bg-white p-6 rounded-xl border border-gray-100 shadow-sm ">
+        <div class="space-y-3 mb-6">
+          <h3 class="text-gray-700 font-medium mb-4">Choose a billing option</h3>
+
+
+          <label for="cash" class="flex cursor-pointer items-center gap-3 border-2 border-slate-300 rounded-lg p-4
+          has-[:checked]:border-purple-600 ">
+            <input type="radio" name="Payment" checked id="cash"
+           class="appearance-none w-6 h-6 rounded-full border-2 border-slate-300 
+                  checked:border-[6px] checked:border-purple-600 focus:outline-none 
+                  transition-all cursor-pointer">
+            <span class="font-bold text-gray-900">Cash</span>
+            <span class="font-medium text-gray-700 product-price"></span>
+          </label>
+
+          <label for="credit" class="flex items-center cursor-pointer gap-3 border-2 border-slate-300
+         has-[:checked]:border-purple-600 rounded-lg p-4">
+          <input type="radio" name="Payment"  id="credit"
+           class="appearance-none w-6 h-6 rounded-full border-2 border-slate-300 
+                  checked:border-[6px] checked:border-purple-600 focus:outline-none 
+                  transition-all cursor-pointer">
+            <span class="font-bold text-gray-900">Credit</span>
+            <span class="bg-green-600 text-white text-xs text-center font-bold px-2 py-1 rounded">Save 20%</span>
+            <div class="text-right flex flex-col">
+              <span class="text-gray-400 line-through text-sm mr-1 product-price"></span>
+              <span class="font-medium text-gray-700" id="discount"></span>
+            </div>
+          </label>
+        </div>
+
+        <div class="space-y-3">
+          <button onclick="AddtoCart()"
+            class="w-full bg-[#8b46ff] hover:bg-[#7a39e6] hover:cursor-pointer text-white font-bold py-4 rounded-lg transition-colors">
+            Add to Cart
+          </button>
+          <div class="grid gap-3">
+            <p id="stock"
+              class="border-2 border-purple-600 text-purple-600 font-semibold py-3 rounded-lg hover:bg-purple-50 transition-colors text-center">
+            </p>
+          </div>
+        </div>
+
+        <p class="text-center text-sm text-gray-600 mt-4">
+          <span class="font-bold text-gray-800">USD $8.25 monthly</span>, billed annually at USD $99
+        </p>
+
+        <div class="grid grid-cols-3 gap-2 mt-8">
+          <div class="border border-gray-100 rounded-xl p-3 text-center">
+            <span class="block text-xs text-gray-500 mb-1">Reviews</span>
+            <div class="flex items-center justify-center gap-1">
+              <span class="text-yellow-400 text-sm">★</span>
+              <span class="font-bold text-purple-600" id="rate"></span>
+            </div>
+          </div>
+          <div class="border border-gray-100 rounded-xl p-3 text-center">
+            <span class="block text-xs text-gray-500 mb-1">Sold</span>
+            <span class="font-bold text-purple-600" id="reviews"></span>
+          </div>
+          <div class="border border-gray-100 rounded-xl p-3 text-center">
+            <span class="block text-xs text-gray-500 mb-1">Warranty</span>
+            <span class="font-bold text-gray-700" id="warrantyInformation"></span>
+          </div>
+        </div>
+
+        <div class="mt-8 space-y-3">
+          <h4 class="font-bold text-gray-900">Subscription includes</h4>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-2 text-gray-600 text-sm">
+              <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+              </svg>
+              Product updates and improvements
+            </li>
+            <li class="flex items-center gap-2 text-gray-600 text-sm">
+              <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+              </svg>
+              Customer support <span
+                class="text-gray-400 border border-gray-400 rounded-full w-3 h-3 flex items-center justify-center text-[10px]">i</span>
+            </li>
+            <li class="flex items-center gap-2 text-gray-600 text-sm">
+              <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+              </svg>
+              30-day money-back guarantee
+            </li>
+          </ul>
+        </div>
+
+        <div class="mt-8 space-y-3">
+          <h4 class="font-bold text-gray-900">Support</h4>
+          <div class="space-y-2">
+            <a href="#" class="flex items-center gap-3 text-purple-600 hover:underline text-sm font-medium">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                </path>
+              </svg>
+              Documentation
+            </a>
+            <a href="#" class="flex items-center gap-3 text-purple-600 hover:underline text-sm font-medium">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+              </svg>
+              Feature requests
+            </a>
+            <a href="#" class="flex items-center gap-3 text-purple-600 hover:underline text-sm font-medium">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z">
+                </path>
+              </svg>
+              Get support
+            </a>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+  <script src="product_description.js"></script>
+</body>
+
+</html>
